@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./css/game.css">
+</head>
+
+<body>
+
+    <div class="info">
+
+
+
+        <h3 class="round">Round > <span id="round">1</span></h3>
+    </div>
+
+    <section class="game-arena">
+
+        <div class="player" id="player">
+            <div class="baslik">
+                <h1>Player</h1>
+                <h3 id="playerSkor">Skor > <span id="skor">0</span> </h3>
+            </div>
+            <div class="images">
+                <label>
+                    <img src="./img/tas.png" id="tasİmage" class="tas isaretler" draggable="false" loading="lazy">
+                    <input id="tas" class="hidden" type="radio" name="selection" value="1" data-id="0">
+                </label>
+
+                <label>
+                    <img src="./img/kağit.png" id="kagitİmage" class="tas isaretler" draggable="false" loading="lazy"
+                        data-id="1">
+                    <input class="hidden" id="kagit" type="radio" name="selection" value="2" data-id="1">
+                </label>
+
+                <label>
+                    <img src="./img/makas.png" id="makasİmage" class="tas isaretler" draggable="false" loading="lazy">
+                    <input class="hidden" id="makas" type="radio" name="selection" value="3" data-id="2">
+                </label>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="player" id="machine">
+            <div class="baslik">
+                <h1>Machine</h1>
+                <h3 id="machineSkor">Skor > <span id="skorM">0</span></h3>
+            </div>
+            <div class="images">
+
+
+                <label>
+                    <img src="" id="machineSecim" class="tas isaretler" draggable="false" loading="lazy"
+                        style="cursor:not-allowed; visibility: false;">
+                </label>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <br>
+
+    <h4 id="info" class="info"></h4>
+    <br> <br>
+    <button onclick="Restart()" class="restart btn" id="sifirla">Sıfırla</button>
+    <br> <br>
+    <a href="index.html">
+        <button class="basla btn">Geri Dön</button>
+    </a>
+
+
+
+    <script src="./js/game.js"></script>
+</body>
+
+</html>
