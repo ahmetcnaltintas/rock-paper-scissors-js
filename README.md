@@ -47,5 +47,5 @@ Bu proje, JavaScript'e giriş seviyesinde yazılmıştır ve temel etkileşimli 
 ## 📫 İletişim
 
 E-posta: **ahmetcnaltintas@gmail.com**  
-Web sitesi: [ahmetcanaltintas.com](https://ahmetcanaltintas.com)  
-LinkedIn: [linkedin.com/in/ahmetcnaltintas](https://linkedin.com/in/ahmetcnaltintas)
+Web sitesi: [ahmetcnaltintas.com](https://ahmetcnaltintas.com)  
+LinkedIn: [linkedin.com/in/ahmet-can-altinta%C5%9F-73840a2a4/](https://www.linkedin.com/in/ahmet-can-altinta%C5%9F-73840a2a4/)
